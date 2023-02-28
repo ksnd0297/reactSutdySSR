@@ -69,9 +69,6 @@
     "build:server": "node scripts/build.server.js"
   },
   "eslintConfig": {
-    "env": {
-      "NODE_ENV": "development"
-    },
     "extends": [
       "react-app",
       "react-app/jest"
