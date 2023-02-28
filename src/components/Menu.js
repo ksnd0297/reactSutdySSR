@@ -18,4 +18,8 @@ const Menu = () => {
 
 export default Menu;
 
+<<<<<<< HEAD
 //* rebase.
+=======
+// * study
+>>>>>>> 812bb22 (fetures/express)
