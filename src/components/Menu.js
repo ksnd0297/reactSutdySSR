@@ -14,3 +14,5 @@ const Menu = () => {
 };
 
 export default Menu;
+
+// * study
