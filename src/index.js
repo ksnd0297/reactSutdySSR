@@ -11,7 +11,11 @@ import {configureStore} from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
 import rootReducer from './modules';
 
-const store = configureStore({reducer: rootReducer, middleware: [thunk]});
+const store = configureStore({
+  reducer: rootReducer,
+  preloadedState: window.__PRELOADED_STATE__,
+  middleware: [thunk],
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
